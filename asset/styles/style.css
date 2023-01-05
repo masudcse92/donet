@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Common style here  */
@@ -41,6 +42,7 @@ nav .items li a {
     border: none;
     text-transform: uppercase;
     color: #fff;
+    margin-top: 10px;
 }
 
 main {}
@@ -53,4 +55,107 @@ main {}
     background-size: cover;
 }
 
-.hiro-details {}
+.hiro-details {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    justify-items: center;
+    justify-content: space-between;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.hiro-details h1 {
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+}
+
+.hiro-details h2 {
+    font-size: 45px;
+    color: #dfdfdf;
+}
+
+p {
+    font-size: 17px;
+}
+
+.hiro-btn {
+    margin-top: 15px;
+}
+
+.hiro-btn .btn-transparent {
+    background-color: transparent;
+    border: 1px solid #FF4800;
+}
+
+.hiro-btn .btn-primary {
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.hiro-btn .btn-secondary:hover {
+    background-color: transparent;
+    border: 1px solid #FF4800;
+}
+
+.hiro-btn .btn-transparent:hover {
+    background-color: #FF4800;
+    border: 1px solid #FF4800;
+}
+
+.donet-day {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 100px 200px;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.donet-ammount {
+    display: flex;
+}
+
+.donet-tk-title {
+    width: 20%;
+    height: 100px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    margin: 10px;
+    line-height: 100px;
+}
+
+.donet-tk-title:hover {
+    background-color: #FFEEEE;
+    border: 1px solid #FF4800;
+}
+
+.active {
+    background-color: #FFEEEE;
+    border: 1px solid #FF4800;
+}
+
+.other-ammount {
+    color: #dfdfdf;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #DADADA;
+
+    color: #B3B3B3;
+}
+
+hr {
+    margin-top: 15px;
+}
