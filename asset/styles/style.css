@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common style here  */
+
+/* Header style here  */
+
+.header-container {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav .items {
+    display: flex;
+}
+
+nav .items li {
+    padding-left: 20px;
+    list-style: none;
+    display: flex;
+    line-height: 35px;
+}
+
+nav .items li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    padding: 12px 30px;
+    background-color: #FF4800;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+main {}
+
+.hiro {
+    height: 100vh;
+    background-image: url("/asset/images/hero.jpg"), linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hiro-details {}
